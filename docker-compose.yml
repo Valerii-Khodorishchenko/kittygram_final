@@ -13,6 +13,8 @@ services:
   backend:
     build: ./backend/
     env_file: .env
+    volumes:
+      - static:/static
   frontend:
     env_file: .env
     build: ./frontend/
