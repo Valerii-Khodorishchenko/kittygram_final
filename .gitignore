@@ -150,3 +150,6 @@ media/
 
 # Others
 node_modules
+
+# игнор файлов рабочей директории
+docker-compose.yml
